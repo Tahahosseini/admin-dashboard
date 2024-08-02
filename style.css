@@ -25,6 +25,7 @@ body {
 .sidebar li {
     margin-bottom: 20px;
     font-size: large;
+    cursor: pointer;
 }
 
 .header {
@@ -40,6 +41,7 @@ body {
 
 .flex-row h2 {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .header .flex-row:first-child {
@@ -58,6 +60,7 @@ body {
     border-radius: 50%;
     height: auto;
     width: 3rem;
+    cursor: pointer;
 }
 
 .flex-row:last-child {
@@ -68,6 +71,7 @@ body {
     border-radius: 50%;
     height: auto;
     width: 6rem;
+    cursor: pointer;
 }
 
 .button-container {
@@ -83,6 +87,7 @@ header button {
     height: 45px;
     border-radius: 50px;
     font-size: medium;
+    cursor: pointer;
 }
 
 .main {
@@ -133,10 +138,9 @@ main p {
     padding: 40px;
 }
 
-/* .announcements {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-} */
+.card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
 
 .announcements .card div {
     margin-bottom: 25px;
@@ -160,6 +164,7 @@ main p {
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 10px;
+    cursor: pointer;
 }
 
 .trending-grid:last-child p {
