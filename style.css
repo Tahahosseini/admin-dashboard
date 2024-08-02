@@ -1,0 +1,60 @@
+body {
+    display: grid;
+    grid-template-columns: minmax(250px, 15vw) 4fr;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    padding: 25px 40px;
+}
+
+.auto-margin-right {
+    margin-right: auto;
+}
+
+.sidebar {
+    background-color: #1992d4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 25px 35px;
+    font-weight: 600;
+    height: 100vh;
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.header {
+    font-weight: 600;
+}
+
+.searchbar {
+    background-color: gainsboro;
+    border-radius: 50px;
+    width: 70%;
+    height: 30px;
+}
+
+.button-container {
+    display: flex;
+    gap: 25px;
+}
+
+header button {
+    background-color: #1992d4;
+    color: white;
+    border: 0;
+    width: 110px;
+    height: 45px;
+    border-radius: 50px;
+    font-size: medium;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
