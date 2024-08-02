@@ -15,3 +15,8 @@ p {
 i {
     margin-right: 10px;
 }
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
